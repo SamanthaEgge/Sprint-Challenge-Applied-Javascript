@@ -184,7 +184,7 @@ body {
   justify-content: none;
   align-items: center;
   flex-direction: row;
-  color: #fff;
+  color: red;
   background-color: #333;
   margin: 0 5px;
   padding: 2px 10px;
@@ -301,4 +301,7 @@ body {
 .carousel img {
   width: 100%;
   display: none;
+}
+.carousel .selected-img {
+  display: flex;
 }
