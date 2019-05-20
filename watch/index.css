@@ -160,7 +160,7 @@ body {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  height: 48px;
+  height: 47px;
   background-color: #fff;
 }
 @media (min-width: 1280px) {
@@ -184,7 +184,7 @@ body {
   justify-content: none;
   align-items: center;
   flex-direction: row;
-  color: red;
+  color: #fff;
   background-color: #333;
   margin: 0 5px;
   padding: 2px 10px;
@@ -301,7 +301,4 @@ body {
 .carousel img {
   width: 100%;
   display: none;
-}
-.carousel .selected-img {
-  display: flex;
 }
